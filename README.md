@@ -17,6 +17,7 @@ Step5:-create the new documents in the familyCare folder i.e. sum.js, sum.test.j
 Step6:-now open this folder in visual studio
 
 1.click on file option.
+
 2.select open folder option.
 
 Step7:-now open the terminal in visual studio by clicking-
@@ -30,9 +31,13 @@ npm init
 Step9:-add the following section in package.json
 
 {
+
   "scripts": {
+  
     "test": "jest"
+    
   }
+  
 }
 
 Step10:-Now to install the Jest in visual studio run the following command:
